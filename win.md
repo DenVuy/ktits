@@ -20,6 +20,7 @@ Set-NetFirewallProfile -Enabled False
 netsh advfirewall show all //посмотреть 
 
 ###История терминала
+Clear-History 
 doskey /listsize=0
 Alt+F7
 
